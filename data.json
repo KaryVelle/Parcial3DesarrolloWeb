@@ -1,0 +1,36 @@
+{
+    "materias": [
+      {
+        "nombre": "Desarrollo de Interfaces Para Aplicaciones Móviles",
+        "profx": "Diana",
+        "descripcion": "En esta materia desarrollamos nuestras habilidades de desarrollo de Interfaces intuitivas y utiles."
+      },
+  
+      {
+        "nombre": "Proyecto Semestral: Diseño y Desarrollo de Aplicaciones Interactivas Complejas",
+        "profx": "Rod Saco",
+        "descripcion": "En esta materia aprendemos acerca del diseño de aplicaciónes para realidad virtual."
+      },
+  
+       {
+        "nombre": "Simulación Física Para Realidad Virtual y Videojuegos",
+        "profx": "Ricardo",
+        "descripcion": "En esta materia se nos dan los conocimientos necesarios para desarrollar videojuegos utilizando la física."
+      },
+  
+       {
+        "nombre": "Metodologías de Desarrollo Para Aplicaciones Web",
+        "profx": "Jonathan MirCha",
+        "descripcion": "En esta materia desarrollamos plataformas interactivas en línea con javascript, http y css."
+      },
+  
+       {
+        "nombre": "Técnicas de Inteligencia Artificial Para Videojuegos",
+        "profx": "Banjo",
+        "descripcion": "Se nos dan las herramientas para desarrollar un videojuego con inteligencia artificial waus"
+      }
+      
+      
+    ]
+  }
+    

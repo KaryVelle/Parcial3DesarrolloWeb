@@ -14,5 +14,3 @@ https://github.com/KaryVelle/Parcial3DesarrolloWeb/blob/main/js/contact-form-val
 
 # Practica 5 (AJAX Y JSON)
 
-
-

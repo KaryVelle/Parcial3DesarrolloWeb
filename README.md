@@ -13,4 +13,4 @@ https://github.com/KaryVelle/Practica3y4-Parcial3/blob/main/js/clock.js
 https://github.com/KaryVelle/Parcial3DesarrolloWeb/blob/main/js/contact-form-validation.js
 
 # Practica 5 (AJAX Y JSON)
-
+https://github.com/KaryVelle/Parcial3DesarrolloWeb/blob/main/js/obtener-datos.js

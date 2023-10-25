@@ -11,12 +11,13 @@
 </head>
 <body>
 
-  <h1>Práctica 3 Parcial 3</h1>
+  <h1>Parcial 3</h1>
   <br>
   <br>
 
       <section>
     <h2>Reloj Digital</h2>
+    <h5>Práctica 3</h5>
     <div id="clock">Reloj</div>
      
     <button id="btn-start">Start</button>
@@ -25,8 +26,90 @@
      </section>
 
 
+<br><br><hr>
      <section class="full-screen">
-    
+      <h2>Formulario de Empleo</h2>
+      <h5>Práctica 5</h5>
+      <form class="contact-form">
+        <div class="form-data">
+          <label class="form-label" for="name">Nombre:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="name"
+            id="name"
+            placeholder="Tu nombre"
+            title="Nombre sólo acepta letras y espacios en blanco"
+            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+            required
+          />
+        </div>
+        <div class="form-data">
+          <label class="form-label" for="email">Edad:</label>
+          <input
+            type="age"
+            class="form-control"
+            name="age"
+            id="age"
+            placeholder="20"
+            title="Edad sólo acepta números"
+            pattern="[0-9]+$"
+            maxlength="3"
+            
+            required
+          />
+        </div>
+        <div class="form-data">
+          <label class="form-label" for="subject">Número telefónico:</label>
+          <input
+            type="telephone"
+            class="form-control"
+            name="telephone"
+            id="subject"
+            placeholder="1234567890"
+            title="El número telefónico sólo acepta números y debe tener al menos 10 caracteres"
+            required
+            pattern= "[0-9]+"
+            minlength="10"
+          />
+        </div>
+        <div class="form-data">
+          <label class="form-label" for="country">País de residencia:</label>
+          <select class="form-control" name="country" id="country" required>
+            <option value="">Selecciona un país</option>
+            <option value="Mexico">México</option>
+            <option value="Spain">España</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Other">Otro</option>
+          </select>
+        </div>
+
+        <div class="form-data">
+          <label class="form-label" for="cv">Cargar CV:</label>
+          <input
+            type="file"
+            class="form-control"
+            name="cv"
+            id="cv"
+            accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" 
+            required
+          />
+        </div>
+        <div class="form-data">
+          <span class="loader none"></span>
+          <aside class="form-response none">
+            <p>Los datos han sido enviados</p>
+          </aside>
+        </div>
+        <div class="form-data">
+          <input class="form-btn" type="submit" value="Enviar" />
+        </div>
+      </form>
+    </section>
+
+
+     <section class="full-screen">
+  <!-- Práctica 4 -->
         <button class="theme-btn">🌙</button>
       </section>
 
